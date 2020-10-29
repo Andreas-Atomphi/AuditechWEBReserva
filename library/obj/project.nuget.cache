@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cNioVDPg0B8Onls91Uzc2ZPebiYrP9IJq4KuDFTy8PjxyRDAwtTyH8L49rCmJ1KyfcQCW2Vb8MwSWKjNRi7eLw==",
+  "success": true,
+  "projectFilePath": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBPrecaução/library/library.csproj",
+  "expectedPackageFiles": [
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

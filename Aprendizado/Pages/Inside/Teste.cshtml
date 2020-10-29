@@ -1,0 +1,52 @@
+@page
+@model TesteModel
+@{
+    ViewData["Title"] = "Teste";
+}
+
+<style>
+    #coisas
+    {
+        width: 720px;
+        height: 480px;
+        margin-top: calc((50%) - (480px));
+        margin-left: calc((50%) - (720px/2));
+        display: inline-flex;
+    }
+    .balls
+    {
+        display: inline-flex;
+        border-radius: 100%;
+    }
+</style>
+
+<div class="aaaa" style="background-color: #fa0; bottom: 50vh; right: 80vw"></div>
+<div class="aaaa"   style="background-color: #F0A; top: 50vh; left: 80vw;"></div>
+
+<div    id="coisas">
+    <div    class="balls"></div>
+    <div    class="balls"></div>
+    <div    class="balls"></div>
+    <div    class="balls"></div>
+    <div    class="balls"></div>
+    <div    class="balls"></div>
+</div>
+
+<script>
+    function resize()
+    {
+        var a = document.getElementsByClassName("balls");
+
+        for (var i=0; i< a.length; i++)
+        {
+            var size = String(Math.random() * 150) + "px";
+            a[i].style.width  =   size;
+            a[i].style.height   =   size;
+            a[i].style.backgroundColor  =   ["#F00", "#0F0", "#00F", "#FF0", "#0FF", "#F0F" ,"#000"][(a[i-1] == parseInt(Math.random() * 8)) ? parseInt(Math.random() * 8) : parseInt(Math.random() * 8)];
+            console.log(a[i]);
+        }
+    }
+
+    window.addEventListener('load', resize);
+
+</script>

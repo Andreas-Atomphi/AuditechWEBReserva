@@ -1,0 +1,94 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .masterDiv {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    height: 92vh;
+    }
+
+    .childDiv {
+    padding: 0;
+    margin: 0;
+    top: -16px;
+    position: relative;
+    }
+
+    #bemvindo {
+        position: fixed;
+        top: 57px;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-color: #164755;
+        background-position: 15% 35%;
+        background-repeat: no-repeat;
+        background-image: url("../assets/img/Logo_02.jpg");
+        filter: brightness(0.7);
+        z-index: -1;
+    }
+
+    #login {
+        position: relative;
+        right: 0;
+        left: 40%;
+        width: 60%;
+        height: 100%;
+        border-bottom-left-radius: 30%;
+        border-top-left-radius: 30%;
+        border-left: 2px solid #ccc;
+        background-color: #FFF;
+    }
+</style>
+
+<div style="position: absolute; bottom:4px; left:2px; color:  #FFF;  filter: brightness(2); z-index: 1">by: H.A.w.G.A.M
+</div>
+
+<div class="masterDiv">
+    <div id="bemvindo" class="childDiv">
+        <div style="text-align: center;">
+        </div>
+        <div>
+            <p style="text-align: left;"></p>
+        </div>
+    </div>
+    <div id="login" class="childDiv">
+        <div style="position: relative; top: 70px;  padding: 0 50px 0 50px">
+            <h1 style="text-align: center;">Login</h1>
+            <div style="position: relative; top: 70px;">
+                <form asp-controller="Account" asp-action="Login">
+                    <div class="form-group">
+                        <label for="entradaCodigo">Login</label>
+                        <input type="tet" class="form-control" id="entradaCodigo" aria-describedby="emailHelp"
+                        placeholder="Insira seu código de acesso">
+                        <small id="emailHelp" class="form-text text-muted">Não compartilhe seu código com
+                            ninguém.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="entradaSenha">Senha</label>
+                        <input type="password" class="form-control" id="entradaSenha" placeholder="Insira sua senha">
+                        <small id="emailHelp" class="form-text text-muted">Não compartilhe sua senha com
+                            ninguém.</small>
+                    </div>
+
+                    <div class="form-check" style="margin-bottom: 5px;">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Lembre de mim</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                    <div class="form-text">
+                        <a href="#" style="font-size: small;">Esqueci minha senha</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
