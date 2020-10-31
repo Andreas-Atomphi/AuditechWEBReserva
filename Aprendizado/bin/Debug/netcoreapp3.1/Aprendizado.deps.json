@@ -2027,21 +2027,21 @@
     "bootstrap/4.5.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KQvCPAvvWyDErmwn+VqTLE/9skJ7Ypt2EXfmU/YXQv+0jPjz5q8HH9xsbsVVVt+vlQd3fmE1SPLPxEVMOesTRg==",
+      "sha512": "sha512-oYQlXLDM06cz719e372xHKmwfCmv4UFe3M6bxgn9SwgmfH3Vwco6PUXit1B0dnva6y3wNpwJcM2zQOYU3Yd86w==",
       "path": "bootstrap/4.5.3",
       "hashPath": "bootstrap.4.5.3.nupkg.sha512"
     },
     "jQuery/3.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ji6sm/AI0vjASXAA/AG9Yf5ypALAqIDXFFKPHMAnFL8kp3xqULIWhACjg/OXZP88C56frYlIej2nrdBnhTMYQQ==",
+      "sha512": "sha512-N2yba1Q0euoNAbi6ZJkRAPtmU4IBLTJ5zENzXm5007fCYtDz3p41u/TqL30/0UGl6CCVfDhtMbtZ5vp91vVU0g==",
       "path": "jquery/3.5.1",
       "hashPath": "jquery.3.5.1.nupkg.sha512"
     },
     "popper.js/1.16.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6GiVZho0vwBnId7pK7NLTjMGq4F0/VE65I08CCeKlarVoUt1w8SGTtJmhNo/0pK38EGUP/xbT4+OkWB8UTMPBw==",
+      "sha512": "sha512-/a9eat3hUDuS2eqzcDT1AS2cMNovNI2SFK2yFfBI0UDFjyKqZ6l+R3toj0l6rCKybbwKTHLOjEzRoVSGwvUFbg==",
       "path": "popper.js/1.16.1",
       "hashPath": "popper.js.1.16.1.nupkg.sha512"
     },

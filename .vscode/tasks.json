@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/WEBAppCore/AuditechWEBPrecaução.csproj",
+                "${workspaceFolder}/Aprendizado/Aprendizado.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,22 +19,21 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/WEBAppCore/AuditechWEBPrecaução.csproj",
+                "${workspaceFolder}/Aprendizado/Aprendizado.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "watch",
+            "label": "watchRun",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/WEBAppCore/AuditechWEBPrecaução.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "--project",
+                "${cwd}/Aprendizado"
             ],
             "problemMatcher": "$msCompile"
         }
