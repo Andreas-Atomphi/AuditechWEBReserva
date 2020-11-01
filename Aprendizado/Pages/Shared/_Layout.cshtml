@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,56 +8,100 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <style>
-        html, body
-        {
+        html,
+        body {
             margin: 0;
-            padding:0;
+            padding: 0;
             width: 100%;
             height: 100vh;
             overflow: hidden;
+            background-color: #cecece;
         }
-        .body-content
-        {
+
+        .body-content {
             padding: 0;
             margin: 0;
+            height: 95%;
+            width: 75%;
+        }
+
+        #sidebar {
+            margin: 0;
+            top: 0;
+            left: 0;
             height: 92%;
+            width: 25%;
+            padding: 0;
+        }
+
+        .tile-menu {
+            font-size: 15pt;
+            transition: 0.5s;
+            width: 100%;
+            text-indent: 20px;
+        }
+        .tile-menu:hover {
+            transition: 0.5s;
+            text-indent: 30px;
+            background-color: #ddd;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark box-shadow"
+        style="background-color: #164755;">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Auditech</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-area="" asp-page="../Inside/TelaPacientes">Auditech</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">Pacientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">Cadastrar Paciente</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="body-content">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div style="display: inline-flex;   height: 100%;   width:  100%;">
+        <nav id="sidebar" class="navbar-light bg-white box-shadow border-right">
+        <div
+        style="width: 100%; height: 40vh;   background-color: #0d2930;  background-position: center;"></div>
+        <div    style="width: 100%; font-size: 24pt;    text-align: center; background-color: #ddd; border-top: 2px solid   #bbb;   border-bottom: 2px solid   #bbb;">
+            <label>nomeProfissional</label>
+        </div>
+        <div style="width: 100%;">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="tile-menu">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Pacientes</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="tile-menu">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Pacientes desistentes</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="tile-menu">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Tratamentos</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <div    class="body-content">@RenderBody()</div>
     </div>
 
     <!--
 
     <footer class="border-top footer text-muted" style="background-color: #fff">
-        <div class="container">
-            &copy; 2020 - Aprendizado - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
+    <div class="container">
+    &copy; 2020 - Aprendizado - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    </div>
     </footer>
     -->
 
@@ -66,4 +111,5 @@
 
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>

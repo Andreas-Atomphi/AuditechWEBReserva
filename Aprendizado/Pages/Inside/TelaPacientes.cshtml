@@ -7,17 +7,13 @@
 <style>
     .masterDiv {
         position:   relative;
-        display: inline-flex;
-        top:    10vh;
-        bottom: 20vh;
         padding: 50px;
         margin: 0;
-        left: 15%;
-        right: 15%;
-        width: 70%;
-        height: 70vh;
+        width: 100%;
+        height: 100%;
         background-color:   #089;
         z-index: 5;
+        overflow-y: scroll;
     }
     .card-img-top
     {
@@ -28,29 +24,21 @@
         background-size: cover;
         background-image: url('../../assets/img/Logo_02.jpg');
     }
+    .row
+    {
+        margin-bottom: 20px;
+    }
 </style>
 
 <div class="masterDiv">
-        <div class="row">
-            <div class="col-sm-5">
-                <div class="card">
-                    <div class="card-img-top" alt="Card image cap"></div>
-                    <div class="card-body">
-                        <h5 class="card-title">nomePaciente</h5>
-                        <label class="card-text">Status: (valor)</label>
-                        <label class="card-text">Tratamento/Fase: (valor)</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="card text-white bg-warning">
-                    <div class="card-img-top" alt="Card image cap"></div>
-                    <div class="card-body">
-                        <h5 class="card-title">nomePaciente</h5>
-                        <label class="card-text">Status: (valor)</label>
-                        <label class="card-text">Tratamento/Fase: (valor)</label>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div    class="row" id="aaa"></div>
 </div>
+    
+<script>
+    window.onload =  function ()
+    {
+        addCard("Usuário desativado", "não", "não", "d", document.getElementById('aaa'));
+        addCard("Usuário com alerta", "valor", "valor", "a", document.getElementById('aaa'));
+        addCard("Usuário comum", "valor", "valor", "n", document.getElementById('aaa'));
+    }
+</script>
