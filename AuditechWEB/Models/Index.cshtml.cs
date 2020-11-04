@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Aprendizado.Pages
+namespace AuditechWEB.Models
 {
     public class IndexModel : PageModel
     {

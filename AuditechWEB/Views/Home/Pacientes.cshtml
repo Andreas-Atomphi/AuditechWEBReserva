@@ -1,0 +1,43 @@
+@model PacientesModel
+@{
+    ViewData["Title"] = "Pacientes";
+}
+
+<style>
+    .masterDiv {
+        position:   relative;
+        padding: 50px;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color:   #089;
+        z-index: 5;
+        overflow-y: scroll;
+    }
+    .card-img-top
+    {
+        width: 100%;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url('../../assets/img/Logo_02.jpg');
+    }
+    .row
+    {
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="masterDiv">
+    <div    class="row" id="aaa"></div>
+</div>
+    
+<script>
+    window.onload =  function ()
+    {
+        addCard("Usuário desativado", "não", "não", "d", document.getElementById('aaa'));
+        addCard("Usuário com alerta", "valor", "valor", "a", document.getElementById('aaa'));
+        addCard("Usuário comum", "valor", "valor", "n", document.getElementById('aaa'));
+    }
+</script>

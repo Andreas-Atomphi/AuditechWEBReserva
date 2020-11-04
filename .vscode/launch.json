@@ -30,7 +30,7 @@
             "request": "launch",
             "cwd": "${workspaceFolder}/Aprendizado/",
             "program": "/usr/bin/dotnet",
-            "args": ["watch",   "run",  "--project",    "${cwd}/Aprendizado/"],
+            "args": ["watch",   "run",  "--project",    "${cwd}/AuditechWEB/"],
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",

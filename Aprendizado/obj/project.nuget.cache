@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RO6c5nOLBY5mjvp5J50Ndiz92tt9BWCUZYBIE1QcdJSxtTeFXXCg+VE7yhlaTEV6y+cbfv0NUWEx/5jiQ/NX3Q==",
+  "dgSpecHash": "/aGK2XjvGOBLOFoL7VrPQyVJIH01iX5r9p5YAy1XcPigKV7r2lPp1G/HiMMI5AGkfSiz17lU1A9fMSDyBWh/wQ==",
   "success": true,
-  "projectFilePath": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBPrecaução/Aprendizado/Aprendizado.csproj",
+  "projectFilePath": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBReserva/Aprendizado/Aprendizado.csproj",
   "expectedPackageFiles": [
     "/home/algodealeatorioforadolugar/.nuget/packages/bootstrap/4.5.3/bootstrap.4.5.3.nupkg.sha512",
     "/home/algodealeatorioforadolugar/.nuget/packages/jquery/3.5.1/jquery.3.5.1.nupkg.sha512",

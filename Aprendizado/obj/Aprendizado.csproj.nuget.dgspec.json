@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBPrecaução/Aprendizado/Aprendizado.csproj": {}
+    "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBReserva/Aprendizado/Aprendizado.csproj": {}
   },
   "projects": {
-    "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBPrecaução/Aprendizado/Aprendizado.csproj": {
+    "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBReserva/Aprendizado/Aprendizado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBPrecaução/Aprendizado/Aprendizado.csproj",
+        "projectUniqueName": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBReserva/Aprendizado/Aprendizado.csproj",
         "projectName": "Aprendizado",
-        "projectPath": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBPrecaução/Aprendizado/Aprendizado.csproj",
+        "projectPath": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBReserva/Aprendizado/Aprendizado.csproj",
         "packagesPath": "/home/algodealeatorioforadolugar/.nuget/packages/",
-        "outputPath": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBPrecaução/Aprendizado/obj/",
+        "outputPath": "/home/algodealeatorioforadolugar/Documentos/ETEC/TCC/DTCC/AuditechWEBReserva/Aprendizado/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

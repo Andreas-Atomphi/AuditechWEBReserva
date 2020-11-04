@@ -2,13 +2,13 @@ using System;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Aprendizado.Pages.Inside
+namespace Aprendizado.Pages.Model
 {
-    public class TelaPacientesModel  :   PageModel
+    public class PrincipalModel  :   PageModel
     {
-        private readonly    ILogger<TelaPacientesModel> _logger;
+        private readonly    ILogger<PrincipalModel> _logger;
 
-        public TelaPacientesModel(ILogger<TelaPacientesModel> logger)
+        public PrincipalModel(ILogger<PrincipalModel> logger)
         {
             _logger = logger;
         }
