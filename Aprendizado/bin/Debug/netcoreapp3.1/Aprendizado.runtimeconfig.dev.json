@@ -1,9 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/algodealeatorioforadolugar/.dotnet/store/|arch|/|tfm|",
-      "/home/algodealeatorioforadolugar/.nuget/packages",
-      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-    ]
-  }
-}
